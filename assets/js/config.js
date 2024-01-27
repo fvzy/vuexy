@@ -95,7 +95,7 @@ if (typeof TemplateCustomizer !== 'undefined') {
     lang: localStorage.getItem('templateCustomizer-' + templateName + '--Lang') || 'en', // Set default language here
      defaultTheme: 2,
      defaultStyle: 'dark',
-     //defaultTextDir: 'rtl',
+     defaultTextDir: 'ltr',
      defaultContentLayout: 'wide',
      defaultHeaderType: 'static',
      defaultMenuCollapsed: true,
